@@ -1,0 +1,12 @@
+{
+  "name": "@wip/wild-ink-pages",
+  "version": "2.0.0",
+  "private": true,
+  "workspaces": [
+    "next-10",
+    "next-12"
+  ],
+  "comments": {
+    "v2": "i had to make this explicitly set to react@17.0.1 because 17.0.2 broke cssHexToColorFilter. now this only works when we have a package.lock here in this directory - only way to do that is run npm i in this dir (not the parent)."
+  }
+}
