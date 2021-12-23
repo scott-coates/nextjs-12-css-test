@@ -64,6 +64,11 @@ export default function Home() {
           </span>
         </a>
       </footer>
+      <style jsx global>{`
+        * {
+          color: red !important;
+        }
+      `}</style>
     </div>
   )
 }
