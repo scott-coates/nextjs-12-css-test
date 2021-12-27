@@ -1,0 +1,8 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces":[
+    "next-10",
+    "next-12"
+  ]
+}
